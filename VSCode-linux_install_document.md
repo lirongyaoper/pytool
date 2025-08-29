@@ -8,7 +8,7 @@
 
 4. ```bash
    # 进入VSCode安装目录
-   cd /home/lirongyao0916/Softwares/VSCode-linux-x64/
+   cd /home/lirongyao0916/SoftWares/VSCode/
    
    # 设置chrome-sandbox的所有者为root
    sudo chown root:root chrome-sandbox
