@@ -16,7 +16,13 @@
    # 设置正确的权限（4755）
    sudo chmod 4755 chrome-sandbox
    
+   # 1. 更改文件所有者为 root
+   sudo chown root:root /home/lirongyaoper/Softwares/VSCode-linux-x64/chrome-sandbox
+   
+   # 2. 设置正确的权限模式（4755 包含 setuid 位）
+   sudo chmod 4755 /home/lirongyaoper/Softwares/VSCode-linux-x64/chrome-sandbox
+   
    ```
-
+   
    
 
